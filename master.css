@@ -1,0 +1,69 @@
+/* universal rules */
+
+/* sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* box principale trasparente nero */
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  width:80%;
+  height:80%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+/* intestazione */
+header {
+  text-align: center;
+  margin: auto;
+}
+/* logo e testo */
+.logo {
+  width: 200px;
+}
+.logo-text {
+  font-size: 25px;
+  color: lime;
+}
+/* barra navigazione */
+nav {
+  background-color: lime;
+  text-align: center;
+  padding: 10px;
+}
+/* scooter disponibili */
+main{
+  color: white;
+}
+.Scooter{
+  padding: 10px;
+}
+.ScooterName{
+  font-size: 23px;
+}
+
+/* ricariche  scooter random arbitrarie*/
+.Scootercharge1{
+  background-color: orange;
+  width: 300px;
+  height: 20px;
+  border-radius: 25px;
+}
+
+.Scootercharge2{
+  background-color: lime;
+  width: 600px;
+  height: 20px;
+  border-radius: 25px;
+}
+
+.Scootercharge3{
+  background-color: red;
+  width: 150px;
+  height: 20px;
+  border-radius: 25px;
+}
